@@ -1,0 +1,39 @@
+.location-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  
+.location-radio-button {
+  margin: 5px;
+}
+
+.location-selector-div {
+
+    display: inline-block;
+    margin-left: 5%;
+    width: 400px;
+}
+
+.location-form {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+.location-full-width {
+  width: 100%;
+}
+
+.location-current{
+    height: 56px;
+}
+
+
+.location-card {
+  width: 400px;
+  height: 100;
+}
+
+.location-action-button {
+    margin-left: 40%;
+}

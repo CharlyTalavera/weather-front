@@ -1,0 +1,7 @@
+.weather-card{
+    display: inline-block;
+    margin-left: 10%;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+}

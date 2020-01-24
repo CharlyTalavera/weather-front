@@ -1,0 +1,15 @@
+<mat-card class = "weather-card">
+        <mat-card-header>
+            <mat-card-title>Weather info </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            {{currentLocation?.name}}
+            <br>
+            <br>
+            {{weather?.main}}{{weather ? "," : ""}} {{weather?.description}}
+            <br>
+            <br>
+
+            Temperature: {{weather?.temp}} °C
+        </mat-card-content>
+      </mat-card>
