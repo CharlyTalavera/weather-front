@@ -1,0 +1,1 @@
+docker run  -v `pwd`/dist/weather-front:/usr/share/nginx/html  -p 5007:80 nginx:alpine
